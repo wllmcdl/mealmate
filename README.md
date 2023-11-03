@@ -1,3 +1,3 @@
 # Mealmate
 
-## Your go-to meal analyze app
+## Your go-to meal analyzer app

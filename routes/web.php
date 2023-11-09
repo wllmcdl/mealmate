@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FoodController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,5 +23,10 @@ Route::view('dashboard', 'dashboard')
 Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
+
+Route::controller(FoodController::class)->group(function () {
+    Route::get('/list', 'getAllFood');
+    Route::post('/food', 'getFoodByName');
+});
 
 require __DIR__.'/auth.php';

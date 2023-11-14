@@ -1,4 +1,6 @@
-# Mealmate
+# \Mealmate
+
+***
 
 ## Your go-to meal analyzer app
 
@@ -14,7 +16,8 @@ of their health.
 
 ### The app will have the following features:
 
-* Show the nutrition information of the food you selected in your plan
+* Make diet plans for resting and workout days
+* Show the nutrition information of the food you select in your plan
 * Warn about excess or deficiency of some nutrients in your plan
 * Make a shopping list based on the food you selected
 * Show the price of the items in the shopping list

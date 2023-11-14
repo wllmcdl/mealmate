@@ -1,7 +1,5 @@
 # \Mealmate
 
-***
-
 ## Your go-to meal analyzer app
 
 This app is made with the ambition of helping people with their nutrition, because we are bombarded everyday with ads
